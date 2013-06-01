@@ -190,6 +190,7 @@ function openPageNumbers() {
 	$("#pageNumbers").fadeIn();
 	$("#pageResult").hide();
 	$("#pagePlan").hide();
+	$("#pageKnow").hide();
 	$("#pageSign").hide();
 	$("#footerQuiz").hide();
 	$("#footerInfo").fadeIn();	
