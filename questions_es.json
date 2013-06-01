@@ -1,0 +1,154 @@
+{"questions": [{
+
+	"title": "Si investigas a tu novio por Internet es posible que encuentres...",
+
+	"options": [
+
+		{"text": "... su membres&iacute;a al Club de la Luna Llena.", "n": "0", "w": "1", "a": "0", "v": "0"},
+
+		{"text": "... una foto de &eacute;l... &iexcl;tomada hace 90 a&ntilde;os!", "n": "0", "w": "0", "a": "0", "v": "1"},
+
+		{"text": "... fotos de &eacute;l en el Zombie Walk... &iexcl;sin disfraz!.", "n": "1", "w": "0", "a": "0", "v": "0"},
+
+		{"text": "... un historial de problemas legales y/o disciplinarios.", "n": "0", "w": "0", "a": "1", "v": "0"}
+
+	]},
+ 	{
+
+	"title": "Cuando tu novio se enoja...",
+
+	"options": [
+
+		{"text": "... gru&ntilde;e, aulla y babea.", "n": "0", "w": "1", "a": "0", "v": "0"},
+
+		{"text": "... sus ojos se ponen amarillos.", "n": "0", "w": "0", "a": "0", "v": "1"},	
+
+		{"text": "... te culpa a t&iacute; por su enojo.", "n": "0", "w": "0", "a": "1", "v": "0"},
+
+		{"text": "... &iexcl;quiere comerte el cerebro!", "n": "1", "w": "0", "a": "0", "v": "0"}
+
+	]},
+ 	{
+
+	"title": "Te preocupa que en el cuarto de tu novio haya...",
+
+	"options": [
+
+		{"text": "... posters de todas las pel&iacute;culas de Dr&aacute;cula.", "n": "0", "w": "0", "a": "0", "v": "1"},	
+
+		{"text": "... muchos pelos largos en la alfombra, y camisas destrozadas en el armario.", "n": "0", "w": "1", "a": "0", "v": "0"},
+
+		{"text": "... botellas de licor y latas de cerveza vac&iacute;as, tiradas por todos los rincones.", "n": "0", "w": "0", "a": "1", "v": "0"},
+
+		{"text": "... muchos cerebros a medio comer sobre la cama.", "n": "1", "w": "0", "a": "0", "v": "0"}
+
+	]},
+ 	{
+
+	"title": "Algunas amigas de tu novio te han advertido que tiene...",
+
+	"options": [
+
+		{"text": "... miedo a los d&iacute;as soleados y al ajo.", "n": "0", "w": "0", "a": "0", "v": "1"},	
+
+		{"text": "... peculiaridades culinarias (&iexcl;come cerebros!).", "n": "1", "w": "0", "a": "0", "v": "0"},
+
+		{"text": "... la costumbre de salir a caminar las noches de luna llena.", "n": "0", "w": "1", "a": "0", "v": "0"},
+
+		{"text": "... una conducta violenta frecuente.", "n": "0", "w": "0", "a": "1", "v": "0"}
+
+	]},
+ 	{
+
+	"title": "Est&aacute;s con tu novio, y un amigo te comenta que va a tocar en un local muy pronto. Tu novio...",
+
+	"options": [
+
+		{"text": "... mira la cabeza de tu amigo y dice &uml;&Ntilde;AM &Ntilde;AM...&uml;.", "n": "1", "w": "0", "a": "0", "v": "0"},	
+
+		{"text": "... lo amenaza y le advierte que no vuelva a acercarse a t&iacute;.", "n": "0", "w": "0", "a": "1", "v": "0"},
+
+		{"text": "... s&oacute;lo lo huele, y se rasca la oreja.", "n": "0", "w": "1", "a": "0", "v": "0"},
+
+		{"text": "... te pregunta qu&eacute; tipo de sangre tiene tu amigo.", "n": "0", "w": "0", "a": "0", "v": "1"}
+
+	]},
+ 	{
+
+	"title": "Te asust&aacute;s cuando tu novio:",
+
+	"options": [
+
+		{"text": "... salta de un pino a otro, contigo colgada a su espalda.", "n": "0", "w": "0", "a": "0", "v": "1"},	
+
+		{"text": "... te insulta y te pone nombres despectivos.", "n": "0", "w": "0", "a": "1", "v": "0"},
+
+		{"text": "... vuelve con las camisas rotas.", "n": "0", "w": "1", "a": "0", "v": "0"},
+
+		{"text": "... juega con tu gato y trata de morderlo.", "n": "1", "w": "0", "a": "0", "v": "0"}
+
+	]},
+ 	{
+
+	"title": "Tu novio no encuentra el control remoto y...",
+
+	"options": [
+
+		{"text": "... te mira diciendo &uml;CERE... BRO...&uml;.", "n": "1", "w": "0", "a": "0", "v": "0"},	
+
+		{"text": "... comienza a patear todo e insultar a los gritos.", "n": "0", "w": "0", "a": "1", "v": "0"},
+
+		{"text": "... se transforma en un murci&eacute;lago y se aleja volando.", "n": "1", "w": "1", "a": "0", "v": "0"},
+
+		{"text": "... &eacute;l le aulla a la Luna.", "n": "0", "w": "1", "a": "0", "v": "0"}
+
+	]},
+ 	{
+
+	"title": "Le muestras un vestido nuevo a tu novio, y &eacute;l...",
+
+	"options": [
+
+		{"text": "... te dice que luces DELICIOSA", "n": "0", "w": "0", "a": "0", "v": "1"},	
+
+		{"text": "... te dice que luces m&aacute;s bella que la luna.", "n": "0", "w": "1", "a": "0", "v": "0"},
+
+		{"text": "... te ordena que te lo quites y te pongas otra cosa.", "n": "0", "w": "0", "a": "1", "v": "0"},
+
+		{"text": "... te dice &uml;CERE... BRO... HAMBRE&uml;", "n": "1", "w": "0", "a": "0", "v": "1"}
+
+	]},
+ 	{
+
+	"title": "Est&aacute;s yendo a tu clase de teatro, entonces tu novio te detiene y...",
+
+	"options": [
+
+		{"text": "... trata de comerte el cerebro (&iexcl;Otra vez!).", "n": "1", "w": "0", "a": "0", "v": "0"},	
+
+		{"text": "... te ordena que no vayas m&aacute;s a esa clase... &iexcl;o ver&aacute;s!", "n": "0", "w": "0", "a": "1", "v": "0"},
+
+		{"text": "... te dice que &eacute;l se quedara en casa mirando Danza con lobos.", "n": "0", "w": "1", "a": "0", "v": "0"},
+
+		{"text": "... te saluda y se va a su sarc&oacute;fago a dormir una siesta.", "n": "0", "w": "0", "a": "0", "v": "1"}
+
+	]},
+ 	{
+
+	"title": "Le cuentas a tu novio que ma&ntilde;ana es el cumplea&ntilde;os de tu madre y que va a haber una fiesta. Entonces &eacute;l...",
+
+	"options": [
+
+		{"text": "... dice &uml;MA... DRE... CE.. RE... BRO...&uml;.", "n": "1", "w": "0", "a": "0", "v": "0"},	
+
+		{"text": "... te dice que no ir&aacute;s porque &eacute;l ya ten&iacute;a otros planes para ambos.", "n": "0", "w": "0", "a": "1", "v": "0"},
+
+		{"text": "... se rasca una oreja, y sigue mirando Animal Planet.", "n": "0", "w": "1", "a": "0", "v": "0"},
+
+		{"text": "... te pregunta qu&eacute; tipo de sangre tiene tu familia.", "n": "0", "w": "0", "a": "0", "v": "1"}
+
+	]}
+
+	]
+
+}

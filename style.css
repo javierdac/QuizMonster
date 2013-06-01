@@ -1,0 +1,329 @@
+/*
+	99Lime.com HTML KickStart by Joshua Gatcke
+	style.css
+	
+*/
+
+/*---------------------------------
+	IMPORTS
+-----------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Philosopher:400,700);
+@import url(http://fonts.googleapis.com/css?family=Metal+Mania);
+
+/*---------------------------------
+	OVERRIDES
+-----------------------------------*/
+h1,h2,h3,h4,h5,h6{
+font-family: "Philosopher", arial, verdana, sans-serif;
+font-weight:400;
+}
+
+thead th,
+tbody th{
+font-family: "Philosopher", arial, verdana, sans-serif;
+}
+
+button,
+a.btn,
+input[type="submit"],
+input[type="reset"],
+input[type="button"]{
+font-family: "Philosopher", arial, verdana, sans-serif;
+font-weight:400;
+}
+
+.menu{
+font-family: "Philosopher", arial, verdana, sans-serif;
+font-weight:400;
+}
+
+blockquote{
+font-family: "Philosopher", arial, verdana, sans-serif;
+font-weight:400;
+}
+
+/*---------------------------------
+	LAYOUT
+-----------------------------------*/
+body{
+margin:0;
+padding:0 0 0 0;
+color:#000;
+background:#000 url(images/background.png) top left;
+background-repeat: repeat-x; background-attachment:fixed;
+font-family:'Philosopher', arial, verdana, sans-serif;
+font-weight:400;
+text-shadow: 0px 0px 1px transparent; /* google font pixelation fix */
+}
+
+#wrap{
+width:100%;
+background:#fff;
+margin:30px auto 30px auto;
+padding:0 2%;
+border:1px solid #ccc;
+}
+
+
+#footer{
+text-align:center;
+padding:10px 0 0 0;
+margin:0;
+color: #C69;
+font-size:0.8em;
+text-shadow:0px 1px 1px #fff;
+position: relative;
+top:0;
+left:0;
+}
+
+	#link-top{
+	display:none;
+	}
+	
+/* NAV BAR*/
+.navbar{
+position:fixed;
+top:0;
+left:0;
+width: 100%;
+background:#000;
+color:#fff;
+z-index:1000;
+}
+
+	.navbar #logo{
+	position:absolute;
+	top:0;
+	right:0;
+	padding:0.5em 1em;
+	font-size: 1.7em;
+	color:#efefef;
+	text-decoration:none;
+	}
+	
+	.navbar span{
+	color:#86dc00;
+	}
+	
+	
+	.navbar ul{
+	display:inline-block;
+	margin:0;
+	padding:0;
+	}
+	
+		.navbar li{
+		margin:0;
+		padding:0;
+		list-style-type:0;
+		display:inline-block;
+		}
+		
+		.navbar li a{
+		display:inline-block;
+		color:#efefef;
+		padding:1em 1.3em;
+		text-decoration:none;
+		text-transform: uppercase;
+		line-height:100%;
+		font-size: 1.2em;
+		}
+		
+.callout{
+background:#4598ef;/*#86dc00;*/
+padding:3em 0;
+color:#fff;
+box-shadow:inset 0px 0px 10px rgba(0,0,0,0.2);
+text-align: center;
+text-shadow:0px 1px 3px rgba(0,0,0,0.2);
+display:block;
+}
+	.callout + div.grid{margin-top:50px;}
+	 a.callout{cursor:pointer;}
+	 .callout i.icon-4x{font-size:6em;}
+	 .callout h4{margin-bottom:30px;}
+	 .callout-top{margin:50px 0 0 0;}
+	 .callout p{margin-bottom:0;}
+	 .callout .button{margin-top:10px;}
+	 .callout.green{background:#19ad0b;/*#86dc00;*/}
+	 
+#mc_embed_signup{
+padding:30px 0;
+}
+
+#ui-preview{
+border:5px solid #ddd;
+margin:30px 0;
+display:block;
+}
+
+/*  HEADER  -----------*/
+	/*.floatLeft { Empty. Only for @media all and (max-width: 480px) in quickStarGrid.css}*/
+.headerQuiz {width:100%; position:relative; /*background-image:url(images/background.png);*/
+height:85px; display:block; margin:-0.5em 0 0 0;
+background: #0e0e0e;
+background: -moz-linear-gradient(top,  #0e0e0e 0%, #5b213a 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0e0e0e), color-stop(100%,#5b213a));
+background: -webkit-linear-gradient(top,  #0e0e0e 0%,#5b213a 100%);
+background: -o-linear-gradient(top,  #0e0e0e 0%,#5b213a 100%);
+background: -ms-linear-gradient(top,  #0e0e0e 0%,#5b213a 100%);
+background: linear-gradient(to bottom,  #0e0e0e 0%,#5b213a 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', endColorstr='#5b213a',GradientType=0 );
+@include shadow(raised);
+}
+ 	.headerQuiz .buttonLeft{ position:absolute; left:15px; top:0;}
+	.headerQuiz .buttonRight{ position:absolute; right:15px; top:0;}
+	.headerGrid { /* Empty. Only for @media  in quickStarGrid.css*/}
+	
+/* Para separar el header del contenido */
+.marginTop {margin-top:/*70px;*/ -15px;}
+
+#pageHome .btnStart { text-transform:uppercase; font-family:"Metal Mania"}
+
+/*   QUESTION --->*/
+.questionBox { 
+	background-color:#5b213a;
+	 @include shadow(); 
+	 border-top: double 6px #9c3d5d; 
+	 margin-bottom:0.5em;
+	 min-height:4em;
+	 -webkit-border-bottom-right-radius: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	 }
+.questionBox p {
+	width:85%; margin: 0 auto; 
+	padding:0.5em 0 0.5em 0; 
+	text-align: center; color:#FFFFFF;
+	font-size: 1.2em;
+	color:#FFCC00
+	}
+	
+	.answerBox {min-height:4em; min-width:100%; font-size: 1em;}
+
+/*  FOOTER ==========================*/
+.footerSponsors { position:relative;height:60px;}
+	.footerSponsors  .sponsor1 {position:absolute; top:0; left:15px; float:left; display:inline-block;}
+	.footerSponsors  .sponsor2 {position:absolute; top:0; right:15px; float:left; display:inline-block}
+
+#footerHome, #footerQuiz, #footerBack, #footerInfo {padding:30px 0;
+border-top: groove 5px #FF99CC ;
+	background-color:#5b213a; position:relative;height:4em; -webkit-border-radius: 0px 0px 10px 10px;
+	-moz-border-radius:  0px 0px 10px 10px;
+	border-radius:  0px 0px 10px 10px;
+	}
+#footer button{ text-transform:uppercase;margin-top:0.4em;}
+#footer .buttonLeft{ position:absolute; left:15px; top:5px;}
+#footer .buttonRight{ position:absolute; right:15px; top:5px;}
+
+#footer button i {margin:0 5px;}
+
+
+.titleBanner {
+	width:100%;
+	background-color:#5b213a;
+	 @include shadow(); 
+	 border-top: double 6px #9c3d5d; 
+	 margin-bottom:0.5em;
+	 text-transform:uppercase;
+	 color:#FFFFFF;
+	 padding:5px 15px 10px 15px;
+	 	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+	 
+/*  RESULTS  ===============================*/
+.hoja, 
+.hojaRoja{ width:90%; margin:-10px auto 0 auto; padding:20px 0 15px 0; z-index:-100;
+	-webkit-border-bottom-right-radius: 20px;
+-webkit-border-bottom-left-radius: 20px;
+-moz-border-radius-bottomright: 20px;
+-moz-border-radius-bottomleft: 20px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+background-image:url(images/innerShadow2.png); background-repeat:no-repeat; background-position:top center;
+	}
+	
+	.hoja {background-color:#CCCCCC;}
+	.hojaRoja {background-color:#ff0000;}
+	
+	.hoja h2 {font-size:1.4em; color:#990066; text-transform:uppercase}
+	.hoja h3 {font-size:1.2em; color:#990066; text-transform:uppercase}
+	.hoja .noSignText {color:#999}
+	.hoja .marginSide {margin:0 3em; width:90%;}
+	.hoja .marginSide li {padding-right:2em;}
+	.hoja .dangerText{ color:#FF0000;}
+	.hoja .dangerText span { font-size:1.4em; text-transform:uppercase;}
+	
+	#pageNumbers button {width:50%; !Important} /* ver @media en kickstart-grid.css*/
+	
+	/* imagen resultado*/
+	.max768Hide {display:none;}
+	.max768Display {display:block}
+	
+	/* Warning */
+	.warning-sign {background-color:#5b213a; background-image:none;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding:10px;}
+	.warning-sign .image {width:50px; height:65px; display:block; /*position: absolute; top:-15px; left:1.5%;*/ background-image:url(images/icon_warningSmall.png); margin:0 auto;}
+	.warning-sign  p {color:#FFF; text-transform:uppercase; font-size:1.1em;line-height:1.2em; }
+	.warning-sign .atencion {font-family: 'Metal Mania', "Philosopher";font-size:1.4em;}
+	.warning-sign .relacion {font-family: 'Metal Mania', "Philosopher";}
+	
+	.warning-sign button {color:#FFF; text-transform:uppercase; font-size:1.3em;line-height:1.2em; }
+	.warning-sign .smallerText {font-size:0.7em; clear:both; text-transform:capitalize; display:block;}
+
+	.smallerText {font-size:0.6em; clear:both; text-transform:capitalize; display:block;}
+	.noUppercase {text-transform:capitalize;}
+	.procesingBox {padding:20px 10px 50px 10px}
+	
+	
+	/*  SHARE  ---------------- */
+	.shareFacebook,
+	.shareTwitter,
+	.shareGoogleplus {width:64px; height:64px; display:inline-block; background-repeat:no-repeat; background-position:top left; margin:0 1em;}
+		
+		.shareFacebook{background-image:url(images/icon_facebook.png); }
+		.shareTwitter{background-image:url(images/icon_twitter.png); }
+		.shareGoogleplus {background-image:url(images/icon_googleplus.png); }
+
+
+	#pageHome {position:relative; margin-top:100px;}
+	#footerStart {margin-top:50px;}
+	.monsterGroup {width:400px; height:255px; display:block;
+		background-image:url(images/grupo400.png); background-repeat:no-repeat;
+		background-position:top left; position:absolute; top:0px;left:0;}
+		
+		/* imagen resultado */
+		#pageResult .hoja {position:relative;}
+		.imageResult { width:190px; height:250px; float: right; position:absolute; top:0; right:0; z-index:1000}
+		.resultZombie { background-image:url(images/resultZombie.png);}
+		.resultAgresive { background-image:url(images/resultAgresive.png);}
+		.resultVampire { background-image:url(images/resultVampire.png);}
+		.resultWerewolf { background-image:url(images/resultWerewolf.png);}
+		
+		#pageResult .notice{ text-align:left;}
+		/* Language choose */
+		.groupLanguage { width:100%; display:block;}
+		.noShadow { text-shadow:none}
+		
+	#pageQuestion .answerBox p {min-height:5em; display:block}
+
+		#pageHome{}
+
+		#pageLanguage .col_12{margin:0; !Important}
+		#pageLanguage .titleBanner{height:45px; padding:20px 5px 30px 5px;
+		background-color:#330000;
+			border-top: none; border-bottom: 6px double rgb(156, 61, 93);}
+			
+			
+	#pageProcesing p {color:#FFFFFF;}

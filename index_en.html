@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html><head>
+<title>Abusive App</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="" />
+<meta name="copyright" content="" />
+<link rel="stylesheet" type="text/css" href="css/kickstart.css" media="all" />                  <!-- KICKSTART -->
+<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/shadows.css">
+                          <!-- CUSTOM STYLES -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/kickstart.js"></script>                                  <!-- KICKSTART -->
+<script type="text/javascript" src="js/abussiveapp.js"></script>                                  <!-- KICKSTART -->
+</head><body>
+
+<!-- Menu Horizontal -->
+
+<script type="text/javascript">
+<!--
+
+var lang = 'en';
+
+$(document).ready(function() {
+	init();
+	setup();
+});
+
+-->
+</script>
+
+<!-- HEADER QUIZ  ==================================-->
+    <div class="grid headerGrid hide" id="headerQuiz">
+        <div class="col_12"> 
+            <div class="headerQuiz">
+                <div class="buttonLeft"><img src="images/logoSmall_en.png" width="150" height="80" alt="What kind of monster is your boyfriend?"></div>
+                <div class="buttonRight"><a href="http://www.jenniferann.org" target="_blank" class="btRight"><img src="images/header_banner.png" width="142" height="74" alt="Jennifer Ann´s Group"></a></div>
+             </div>
+         </div>
+    </div><!-- end headerGrid --->
+
+
+<!-- SUBMENU para MORE INFO pages ==================================-->
+  <div class="grid hide" id="submenu">
+	<div class="col_12 center marginTop">
+		<button class="large magenta btnSign" id="">10 warning signs</button>
+        <button class="large magenta btnPlan" id="">Create a safely plan</button>
+
+		<button class="large magenta btnNumbers" id="">Useful numbers</button>
+	</div>
+ </div>
+    <!-- end submenu -->
+
+<!-- end HEADER QUIZ ============================== -->
+
+<div class="grid" id="pageHome">
+	<div class="col_12 center">
+		<h1><img src="images/logoSmall_en.png" width="250" height="50" alt="What kind of monster is your boyfriend?"></h1>
+	</div>
+	
+	<div class="col_12 center">
+    		<div class="monsterGroup"></div>
+		<button class="large magenta btnStart" id="">Let&acute;s find out!</button>
+	</div>
+		
+	
+</div><!-- end GRID --->
+
+<!----------------- QUESTION   =============================-------------->
+<div class="grid hide" id="pageQuestion">
+	<div class="col_12 marginTop">
+		<div class="col_12">
+			<div class="questionBox shadow">
+                <p id="question">
+                Lorem ipsum dolor sit amet, consectetuer <em>adipiscing elit</em>, sed diam nonummy nibh euismod incidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis </p>
+            </div><!-- end questionBOx -->
+		</div>
+		
+		
+		<div class="col_3">
+		<form id="formAnswer0">
+			<input type="hidden" id="n" value=""/>
+			<input type="hidden" id="w" value=""/>
+			<input type="hidden" id="a" value=""/>
+			<input type="hidden" id="v" value=""/>
+			
+			<button class="large magenta2 answerBox" style="float:right;" type="submit" id="btnSubmit0"><i class="icon-ok-sign"></i><br><p id="answer0">
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
+			magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis</p> </button>
+		</form>
+		</div>
+		
+		<div class="col_3">
+		<form id="formAnswer1">
+			<input type="hidden" id="n" value=""/>
+			<input type="hidden" id="w" value=""/>
+			<input type="hidden" id="a" value=""/>
+			<input type="hidden" id="v" value=""/>
+			
+			<button class="large magenta2 answerBox" style="float:right;" type="submit" id="btnSubmit1"><i class="icon-ok-sign"></i><br /><p id="answer1">
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p></button>
+		</form>
+		</div>
+		
+		<div class="col_3">
+		<form id="formAnswer2">
+			<input type="hidden" id="n" value=""/>
+			<input type="hidden" id="w" value=""/>
+			<input type="hidden" id="a" value=""/>
+			<input type="hidden" id="v" value=""/>
+			
+			<button class="large magenta2 answerBox" style="float:right;" type="submit" id="btnSubmit2"><i class="icon-ok-sign"></i><br /><p id="answer2">
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p></button>
+		</form>
+		</div>
+
+		<div class="col_3">
+		<form id="formAnswer3">
+			<input type="hidden" id="n" value=""/>
+			<input type="hidden" id="w" value=""/>
+			<input type="hidden" id="a" value=""/>
+			<input type="hidden" id="v" value=""/>
+			
+			<button class="large magenta2 answerBox" style="float:right;" type="submit" id="btnSubmit3"><i class="icon-ok-sign"></i><br /><p id="answer3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore </p></button>
+		</form>
+		</div>
+		
+	</div>
+</div>
+<!-- END GRID -->
+
+
+<!------------------- PROCESING  =============================-------------->
+<div class="grid hide" id="pageProcesing">
+	<div class="col_12 center marginTop procesingBox">
+		<i class="icon-spinner icon-spin icon-4x"></i>
+		<p>Procesing your answers...<p>
+	</div>
+</div>
+
+
+<!------------------- RESULTS    =============================-------------->
+<div class="grid hide" id="pageResult">
+	<div class="col_12 center marginTop">
+		
+		<div class="col_9 column">
+			<div class="titleBanner left">Your boyfriend is</div>
+			<div class="hoja">
+             <div class="imageResult resultWerewolf"></div>
+                <div id="resultLineVampire" class="notice noticeRegular"><i class="icon-ok icon-large"></i> <span>50</span>% Vampire</div>
+                <div id="resultLineWolfman" class="notice noticeRegular"><i class="icon-ok icon-large"></i> <span>50</span>% Wolfman</div>
+                <div id="resultLineAbusive" class="notice noticeRegular"><i class="icon-warning-sign icon-large"></i> <span>50</span>% Abusive</div>
+                <div id="resultLineRegular" class="notice noticeRegular"><i class="icon-ok icon-large"></i> <span>50</span>% Regular guy</div>
+           </div><!-- end hoja-->
+		</div>	
+        
+		<div class="col_3 column">
+        
+        <div class="warning-sign shadow">
+                <div class="image"></div>
+                <p><span class="atencion">¡Atención!</span> Es altamente probable que estés en una <span class="relacion">relación abusiva</span>.</p>
+                <button class="large magenta2 btnKnow" id="btnAbusive"><span class="smallerText">Click here</span>Know what to do</button>
+                <button class="large magenta2 btnKnow" id="btnNotAbusive"><span class="smallerText">Click here</span>Know more teen dating violence</button>
+	    </div>
+        
+		</div><!--end col_3 -->
+	</div><!--end col_12 -->
+
+</div>
+
+<!------------------- page SIGNS  -------------->
+<div class="grid hide" id="pageSign">
+	<div class="col_12 center">
+      <div class="hoja">
+		<h2>Ten warning signs of a Teen abusive relationship</h2>
+		<ol class="left marginSide">
+			<li>History of legal or discipline problems.</li>
+			<li>Blames you for his/her anger.</li>
+			<li>Serious drug or alcohol abuse.</li>
+			<li>History of violent behavior.</li>
+			<li>Threatens others regularly.</li>
+			<li>Insults you or calls you names.</li>
+			<li>Trouble controlling feeling like anger.</li>
+			<li>Tells you what to wear, what to do or how to act.</li>
+			<li>Threatens or intimidates you in order to get their way.</li>
+			<li>Prevents you from spending time with your friends or family.</li>
+		</ol>
+      </div><!-- end hoja -->
+	</div>
+</div><!-- end pageSigns -->
+
+
+<!------------------- page SAFETY PLAN  -------------->
+<div class="grid hide" id="pagePlan">
+	<div class="col_12 center">
+      <div class="hoja">
+		<h2>Create a safely plan</h2>
+		<ol class="left marginSide">
+			<li>Talk to someone that you can trust.</li>
+			<li>Plan in advance to have a safe place to go.</li>
+			<li>Keep money and your cellphone or calling card with you all times.</li>
+			<li>Memorize important numbers in case your phone is taken.</li>
+			<li>Establish a code word or sign so family, friends an co-workers know when to call for help.</li>
+		</ol>
+	</div><!-- end hoja -->
+   </div>
+</div><!-- end pagePlan -->
+
+<!------------------- page PHONE NUMBERS  -------------->
+<div class="grid hide " id="pageNumbers">
+	<div class="col_12 center">
+        <div class="hoja">
+			<h2>Useful numbers</h2>
+            <p class="dangerText">If you are in INMEDIATE danger</p>
+			<button class="large red"><i class="icon-minus-sign"></i> CALL 911</button>
+            <br/>
+			<p>If you are NOT in Inmediate danger</p>
+			<h3>National Teen Dating abuse helpline</h3>		
+			<button class="large orange"><i class="icon-mobile-phone"></i> 1-866-331-9474</button>
+            <br/>
+            <br/>
+            <button class="large orange"><i class="icon-mobile-phone"></i> 1-866-331-8453<br><span class="smallerText">TTY for deaf/hearing impaired</span></button>
+        </div><!-- end hoja -->
+     </div>
+</div><!-- end pageNumbers-->
+
+
+<!------------------- page KNOW  -------------->
+
+<div class="grid hide" id="pageKnow">
+    <div class="col_12 center">
+        <div class="hoja">
+              <div class="slogan">Teen Dating Violence is not a game. <br>Danger is real. Death is real. <br>Think in all the people that loves you. Be safe.</div>
+            <div id="youMention">
+                <h2>You mention:</h2>
+                <ul class="icons left marginSide">
+                    <li id="know_q_0"><i class="icon-ok"></i>He may have history of legal or discipline problems.</li>
+                    <li id="know_q_1"><i class="icon-ok"></i>He blames you for his/her anger.</li>
+                    <li id="know_q_2"><i class="icon-ok"></i>He may have Serious drug or alcohol abuse.</li>
+                    <li id="know_q_3"><i class="icon-ok"></i>He may have history of violent behavior.</li>
+                    <li id="know_q_4"><i class="icon-ok"></i>He threatens others regularly.</li>
+                    <li id="know_q_5"><i class="icon-ok"></i>He insults you or calls you names.</li>
+                    <li id="know_q_6"><i class="icon-ok"></i>He may have Trouble controlling feeling like anger.</li>
+                    <li id="know_q_7"><i class="icon-ok"></i>He tells you what to wear, what to do or how to act.</li>
+                    <li id="know_q_8"><i class="icon-ok"></i>He threatens or intimidates you in order to get their way.</li>
+                    <li id="know_q_9"><i class="icon-ok"></i>He prevents you from spending time with your friends or family.</li>
+                </ul>
+          </div><!-- end youMention -->
+       </div>
+    </div>	
+</div><!-- end pageKNOW -->
+
+
+
+<!-- ===================================== BANNER JENNIFER  ===================================== -->
+<!-- ====================== (mostrar solo en pageProcesing, pageResults y pageKnow ) ===================================== -->
+<div class="grid hide" id="bannerJennifer">
+   <div id="bannerJennifer">
+        <div class="col_12 center">
+            <div class="titleBanner shadow">
+                <p>Could you be in a abusive relationship?</p>
+            </div>
+            <button class="large magenta2 btnJenniferAnn">Visit www.jenniferann.org</button>
+        </div>	
+    </div>
+</div>    
+<!-- =====================================end  BANNER JENNIFER ANN ===================================== -->
+
+
+
+
+
+<!-- ===============SHARE BOX / pageShare (show in: pageResults, pageKnow, pageShare) ===================================== -->
+<div class="grid hide" id="pageShare">
+   <div id="shareBox">
+        <div class="col_12 center">
+            <div class="titleBanner">
+                <p>Share this game!<br><span class="noUppercase"></span></p>
+            </div>
+            <div class="hoja">
+            Some friends may find it useful.<br>
+            <a href="#" class="shareFacebook"></a>
+            <a href="#" class="shareTwitter"></a>
+            <a href="#" class="shareGoogleplus"></a>
+            </div>
+        </div>	
+    </div>
+</div>
+<!-- =====================================end  SHARE BOX  ===================================== -->
+
+
+
+
+
+<!-- ===================================== START FOOTER ===================================== -->
+<div class="clear"></div>
+	<div class="grid center">
+        <div id="footer">
+        
+       
+        <!--- footerStart (pageHome) ==============================================--->
+          <div id="footerStart" class="">
+            <div class="footerSponsors">
+                <div class="sponsor1">
+                	<img src="images/home_sponsor1.png" width="153" height="55"  alt="Sponsored by Jennifer Ann´s Group" class="btnJenniferAnn">
+                </div>
+                <div class="sponsor2">
+                	<img src="images/home_sponsor2.png" width="128" height="55" alt="Life Love">
+                </div>
+            </div>    
+            <div id="footerHome" class="shadow">
+        		<div class="buttonLeft">
+					<button class="medium magenta2 btnExtras" id=""><i class="icon-plus-sign"></i> More info</button>
+                </div>
+                <div class="buttonRight">
+                	<button class="medium magenta2 btnLanguage">Versión Español&nbsp;<i class="icon-flag"></i></button>
+                </div>
+              </div><!-- end footerHome-->
+           </div>
+           <!-- end footerStart==============================================--->
+
+
+
+        <!--- footerQUIZ (pageQuestion )==============================================--->
+            <div id="footerQuiz"  class="hide">
+        		<div class="buttonLeft">
+					<button class="medium magenta2 btnHome" id=""><i class="icon-home"></i>&nbsp;Back to Start</button>
+                </div>
+                <div class="buttonRight">
+                	<button class="medium magenta2 btnLanguage">Versión Español&nbsp;<i class="icon-flag"></i></button>
+                </div>
+           </div>
+        <!--- end footerQUIZ  ==============================================--->
+
+
+
+        <!--- footerINFO (pageNumbers, pageSign, pagePlan)==============================================--->
+            <div id="footerInfo" class="hide">
+        		<div class="buttonLeft">
+					<button class="medium noColor magenta2 btnExtras" id=""><i class="icon-backward"></i>Back</button>                </div>
+                <div class="buttonRight">
+                	<button class="medium magenta2 btnKnow">Share this game<i class="icon-share"></i></button>
+                </div>
+           </div>
+        <!--- end footerINFO  ==============================================--->        
+                
+              <span class="noShadow">&copy; Copyright 2011&#8211;2012 All Rights Reserved.</span>
+            </div>
+            <!-- end footerHome-->
+		    
+      </div>
+</div>
+
+
+
+</body></html>

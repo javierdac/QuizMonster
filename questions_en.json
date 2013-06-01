@@ -1,0 +1,82 @@
+{"questions": [{
+	"title": "You search for pictures and data of your boyfriend on the Internet, and you find out...",
+	"options": [
+		{"text": "... he is a member of the Moonlighting Fan Club.", "n": "0", "w": "1", "a": "0", "v": "0"},
+		{"text": "... a picture of him... taken in the XIX Century!", "n": "0", "w": "0", "a": "0", "v": "1"},
+		{"text": "... he goes every year to the Zombie Walk... without costume.", "n": "1", "w": "0", "a": "0", "v": "0"},
+		{"text": "... he has a history of legal or discipline troubles.", "n": "0", "w": "0", "a": "1", "v": "0"}
+	]},
+ 	{
+	"title": "When your boyfriend gets mad...",
+	"options": [
+		{"text": "... he growls, howls and drools.", "n": "0", "w": "1", "a": "0", "v": "0"},
+		{"text": "... his eyes goes yellow.", "n": "0", "w": "0", "a": "0", "v": "1"},	
+		{"text": "... he blames you for his anger.", "n": "0", "w": "0", "a": "1", "v": "0"},
+		{"text": "... he wants to eat your brain!", "n": "1", "w": "0", "a": "0", "v": "0"}
+	]},
+ 	{
+	"title": "You are worry because in your boyfriend's room there are...",
+	"options": [
+		{"text": "... lots of Dracula's movie posters.", "n": "0", "w": "0", "a": "0", "v": "1"},	
+		{"text": "... lots of long and smelly hairs on the carpet, and crushed shirts in the closet.", "n": "0", "w": "1", "a": "0", "v": "0"},
+		{"text": "... lots of empty Liquor bottles and beer cans all over the floor.", "n": "0", "w": "0", "a": "1", "v": "0"},
+		{"text": "... lots of half eaten brains on the bed.", "n": "1", "w": "0", "a": "0", "v": "0"}
+	]},
+ 	{
+	"title": "Some friends of your boyfriend have warned you that he...",
+	"options": [
+		{"text": "... hates and fears sunny days.", "n": "0", "w": "0", "a": "0", "v": "1"},	
+		{"text": "... has no heart beats.", "n": "1", "w": "0", "a": "0", "v": "0"},
+		{"text": "... used to walk on full moon nights.", "n": "0", "w": "1", "a": "0", "v": "0"},
+		{"text": "... has a history of violent behaviors.", "n": "0", "w": "0", "a": "1", "v": "0"}
+	]},
+ 	{
+	"title": "A friend invites you both to his band's concert. Your boyfriend...",
+	"options": [
+		{"text": "... looks at your friend's head and says ''YUMMY...''.", "n": "1", "w": "0", "a": "0", "v": "0"},	
+		{"text": "... threatens him and commands him not to talk to you anymore.", "n": "0", "w": "0", "a": "1", "v": "0"},
+		{"text": "... smells him, and scratches his ear.", "n": "0", "w": "1", "a": "0", "v": "0"},
+		{"text": "... ask you if he need to bring his own blood.", "n": "0", "w": "0", "a": "0", "v": "1"}
+	]},
+ 	{
+	"title": "You are scared every time your boyfriend...",
+	"options": [
+		{"text": "... jumps from the top of a pine tree with you hanging on his back.", "n": "0", "w": "0", "a": "0", "v": "1"},	
+		{"text": "... insults you or call you names.", "n": "0", "w": "0", "a": "1", "v": "0"},
+		{"text": "... comes back with his shirt crushed.", "n": "0", "w": "1", "a": "0", "v": "0"},
+		{"text": "... chaces your cat and try to beat it.", "n": "1", "w": "0", "a": "0", "v": "0"}
+	]},
+ 	{
+	"title": "Your boyfriend can't find the remote control, then...",
+	"options": [
+		{"text": "... he looks at you and says ''BRAINS...''.", "n": "1", "w": "0", "a": "0", "v": "0"},	
+		{"text": "... he starts kicking everything and shouting out loud.", "n": "0", "w": "0", "a": "1", "v": "0"},
+		{"text": "... he transforms into a bat and go to fly away.", "n": "1", "w": "1", "a": "0", "v": "0"},
+		{"text": "... he howls to the moon.", "n": "0", "w": "1", "a": "0", "v": "0"}
+	]},
+ 	{
+	"title": "You have a new dress and you ask your boyfriend what he thinks about it.",
+	"options": [
+		{"text": "... He says you look bloody fanstatic.", "n": "0", "w": "0", "a": "0", "v": "1"},	
+		{"text": "... He says you look more beautiful than the moon.", "n": "0", "w": "1", "a": "0", "v": "0"},
+		{"text": "... He orders you to change your clothes immediately.", "n": "0", "w": "0", "a": "1", "v": "0"},
+		{"text": "... He says ''EAT BRAINS... HUNGRY''", "n": "1", "w": "0", "a": "0", "v": "1"}
+	]},
+ 	{
+	"title": "You are going to your Acting Class. Your boyfriend stops you and...",
+	"options": [
+		{"text": "... try to eat your brain (again).", "n": "1", "w": "0", "a": "0", "v": "0"},	
+		{"text": "... orders you not to go to that class... or else.", "n": "0", "w": "0", "a": "1", "v": "0"},
+		{"text": "... tells you he is going to stay at home watching Dances with Wolves.", "n": "0", "w": "1", "a": "0", "v": "0"},
+		{"text": "... kiss you goodbye and goes to his coffin to take a nap", "n": "0", "w": "0", "a": "0", "v": "1"}
+	]},
+ 	{
+	"title": "Tomorrow is your mother's birthday and there's going to be a party. Your boyfriend...",
+	"options": [
+		{"text": "... offers you to eat your mother brains.", "n": "1", "w": "0", "a": "0", "v": "0"},	
+		{"text": "... tells you that you can't go because he doesn't want to go.", "n": "0", "w": "0", "a": "1", "v": "0"},
+		{"text": "... scratch an ear and keep watching Animal Planet.", "n": "0", "w": "1", "a": "0", "v": "0"},
+		{"text": "... asks you what type of blood your family have.", "n": "0", "w": "0", "a": "0", "v": "1"}
+	]}
+	]
+}
