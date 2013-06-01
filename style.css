@@ -273,8 +273,8 @@ background-image:url(images/innerShadow2.png); background-repeat:no-repeat; back
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-	padding:10px;}
-	.warning-sign .image {width:50px; height:65px; display:block; /*position: absolute; top:-15px; left:1.5%;*/ background-image:url(images/icon_warningSmall.png); margin:0 auto;}
+	padding:10px; margin-top:10px;}
+	.warning-sign .image {width:50px; height:65px; display:block; /*position: absolute; top:-15px; left:1.5%;*/ background-image:url(images/warning.gif); margin:0 auto;}
 	.warning-sign  p {color:#FFF; text-transform:uppercase; font-size:1.1em;line-height:1.2em; }
 	.warning-sign .atencion {font-family: 'Metal Mania', "Philosopher";font-size:1.4em;}
 	.warning-sign .relacion {font-family: 'Metal Mania', "Philosopher";}
@@ -325,5 +325,22 @@ background-image:url(images/innerShadow2.png); background-repeat:no-repeat; back
 		background-color:#330000;
 			border-top: none; border-bottom: 6px double rgb(156, 61, 93);}
 			
-			
-	#pageProcesing p {color:#FFFFFF;}
+		.advice { width:70%; text-align:left; padding:0.5em 1.5em 1em 1.5em; margin: 0.5em 0 0.5em 1em; border-top: dotted 3px #FFF;border-bottom: dotted 3px #FFF;}
+		.advice span {text-transform: uppercase; font-weight:700; color: #900; font-size:1.2em;}
+		
+		.playAgain {margin:15px 0; display:block;}
+		
+		/*  Glowing button    */
+@-webkit-keyframes greenPulse {
+from { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+50% { background-color: #91bd09; -webkit-box-shadow: 0 0 18px #91bd09; }
+to { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+}
+		a.green.button {
+-webkit-animation-name: greenPulse;
+-webkit-animation-duration: 2s;
+-webkit-animation-iteration-count: infinite;
+}
+
+
+#pageProcesing p {color:#FFFFFF;}

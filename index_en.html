@@ -147,10 +147,16 @@ $(document).ready(function() {
 			<div class="titleBanner left">Your boyfriend is</div>
 			<div class="hoja">
              <div class="imageResult resultWerewolf"></div>
-                <div id="resultLineVampire" class="notice noticeRegular"><i class="icon-ok icon-large"></i> <span>50</span>% Vampire</div>
-                <div id="resultLineWolfman" class="notice noticeRegular"><i class="icon-ok icon-large"></i> <span>50</span>% Wolfman</div>
                 <div id="resultLineAbusive" class="notice noticeRegular"><i class="icon-warning-sign icon-large"></i> <span>50</span>% Abusive</div>
-                <div id="resultLineRegular" class="notice noticeRegular"><i class="icon-ok icon-large"></i> <span>50</span>% Regular guy</div>
+                <div id="resultLineVampire" class="notice noticeRegular"><i class="icon-ok icon-large"></i> <span>50</span>% Vampire</div>
+                <div id="resultLineWolfman" class="notice noticeRegular"><i class="icon-ok icon-large"></i> <span>50</span>% Werewolf</div>
+                <div id="resultLineRegular" class="notice noticeRegular"><i class="icon-ok icon-large"></i> <span>50</span>% Zombie</div>
+                <div class="advice">
+                <div id="advVampire">It is possible that your boyfriend is a <span>vampire</span>. Use a garlic necklace all the time.</div>
+				<div id="advWerewolf">It is possible that your boyfriend is a <span>werewolf</span>. You should use No-Fleas Shampoo from now on.</div>  
+                <div id="advAbusive">It is possible that you are in an <span>abusive relationship</span>. Follow our advices, please.</div>  
+                <div id="advRegular">It is possible that your boyfriend is a <span>zombie</span>. Avoid kissing him and do not let him kiss you in the head!</div>                  
+                </div><!-- end advice -->              
            </div><!-- end hoja-->
 		</div>	
         
@@ -158,12 +164,15 @@ $(document).ready(function() {
         
         <div class="warning-sign shadow">
                 <div class="image"></div>
-                <p><span class="atencion">¡Atención!</span> Es altamente probable que estés en una <span class="relacion">relación abusiva</span>.</p>
-                <button class="large magenta2 btnKnow" id="btnAbusive"><span class="smallerText">Click here</span>Know what to do</button>
-                <button class="large magenta2 btnKnow" id="btnNotAbusive"><span class="smallerText">Click here</span>Know more teen dating violence</button>
+                <p><span class="atencion">WARNING!</span> It is possible that you are in an <span class="relacion">abusive relationship</span>.</p>
+                <button class="large magenta2 btnKnow" id="btnAbusive"><span class="smallerText">Click here</span>to know what to do</button>
+                <button class="large magenta2 btnKnow" id="btnNotAbusive"><span class="smallerText">Click here</span>to know more teen dating violence</button>
 	    </div>
         
 		</div><!--end col_3 -->
+        <div class="playAgain">
+        <button class="large magenta2 btnHome" id=""><i class="icon-play-circle"></i>&nbsp;Play again!</button>
+        </div>        
 	</div><!--end col_12 -->
 
 </div>
@@ -339,7 +348,7 @@ $(document).ready(function() {
         		<div class="buttonLeft">
 					<button class="medium noColor magenta2 btnExtras" id=""><i class="icon-backward"></i>Back</button>                </div>
                 <div class="buttonRight">
-                	<button class="medium magenta2 btnKnow">Share this game<i class="icon-share"></i></button>
+                	<button class="medium magenta2">Share this game<i class="icon-share"></i></button>
                 </div>
            </div>
         <!--- end footerINFO  ==============================================--->        
