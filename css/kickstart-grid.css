@@ -225,4 +225,6 @@ border:1px dotted #ccc;
 	
 	#pageQuestion .answerBox p {min-height:1em !Important; display:block;}
 	#pageQuestion .questionBox { min-height:6em;}
+			.sponsor2 {top:70px !Important;}
+
 }
